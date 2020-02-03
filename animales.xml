@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejemplo.css"?>
+<!DOCTYPE animales [
+  <!ELEMENT animales (animal*)>
+  <!ELEMENT animal (#PCDATA)>
+]>
+
+<animales>
+  <perro>Caniche</perro>
+  <gato>Siamés</gato>
+</animales>

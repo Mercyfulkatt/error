@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<?xml-stylesheet href="ejemplo.css"?>
+<!DOCTYPE capitales SYSTEM "capitales.dtd">
+<peliculas>
+<peliculas class="cine">Cine</peliculas>
+<pelicula>Titanic</pelicula>
+<director>James Cameron</director>
+<pelicula>Naranja Mecanica</pelicula>
+<director>Stanley Kubrick</director>
+<pelicula>Star Wars</pelicula>
+<director>George Lucas</director>
+<pelicula>Harry Potter y el prisionero de Askaban</pelicula>
+<director>Alfonso Cuaron</director>
+<pelicula>Pulp Fiction</pelicula>
+<director>Quantin Tarantino</director>
+<pelicula>El extraño ,mundo de jack</pelicula>
+<director>Tim Burton</director>
+</peliculas>

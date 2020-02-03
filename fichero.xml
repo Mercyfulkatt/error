@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="ejemplo.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Titulo" type="xs:string" value="Juancho"/>
+<xs:element name="Autor" type="xs:string"/>
+<xs:element name="Editorial" type="xs:string"/>
+<xs:element name="Precio" type="xs:string"/>
+<xs:element name="Prestamo" type="xs:string"/>
+<xs:element name="Fecha de prestamo" type="xs:string"/>
+<xs:element name="Devolucion" type="xs:string"/>
+<xs:element name="quantity" type="xs:positiveInteger"/>
+<xs:element name="price" type="xs:decimal"/>
+</xs:schema>

@@ -1,0 +1,80 @@
+Pasos para configurar red inalambrica 
+3 Router 1841
+3 acces point Genericos
+3 Pcs
+
+Configuraciones 
+
+Edificio A
+IP: 192.168.0.1
+pc: 192.168.0.5
+Serial 0/0/0: 10.0.1.1
+
+Edificio E
+IP: 192.168.20.1
+pc: 192.168.20.5
+Serial 0/0/0: 10.0.2.1
+
+Edificio F
+IP: 192.168.40.1
+pc: 192.168.40.5
+Serial 0/0/0: 10.0.3.1
+
+Programacion de la Nube
+ PUERTOS SERIALES 
+	Serial 0
+	102 A-E
+	103 A-F
+	Serial 1
+	201 E-A
+	203 E-F
+	Serial 2
+	301 F-A
+	302 F-E
+Frame Relay
+	serial 0 
+	A-E    E-A
+	Serial 0 
+	A-F    F-A 
+	Serial 1
+	E-F   F-E
+PROGRAMAMOS ROUTER STATICO PARA LA WMAN
+Router Edificio A
+IP:		192.168.40.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.3.1
+IP:		192.168.20.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.2.1
+entramos a la interface serial 0/0/0
+
+ENCAPSULAREMOS LA RED EN LA LINEA DE COMANDOS CON:
+encapsulation frame-relay
+	
+Router Edificio E
+IP:		192.168.0.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.1.1
+IP:		192.168.40.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.3.1
+
+entramos a el serial 0/0/0
+ENCAPSULAREMOS LA RED EN LA LINEA DE COMANDOS CON:
+encapsulation frame-relay
+
+Router Edificio F
+IP:		192.168.0.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.1.1
+IP:		192.168.20.0
+MASCARA 	255.255.255.0
+BUSCARLA POR	10.0.2.1
+
+entramos a el serial 0/0/0
+ENCAPSULAREMOS LA RED EN LA LINEA DE COMANDOS CON:
+encapsulation frame-relay
+
+Agregamos mas dispositivos a cada extremo con la configuracion y comprobamos la comunicacion entre ellos minimo 3 da cada lan
+
+

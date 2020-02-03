@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<?xml-stylesheet href="ejemplo.css"?>
+<!DOCTYPE capitales SYSTEM "capitales.dtd">
+<capital>
+<pais>México</pais>
+<estado nacionalidad="inglesa">CDMX</estado>
+<pais>Perú</pais>
+<capital>Lima</capital>
+<pais>Colombia</pais>
+<capital>Bogota</capital>
+<pais>Brasil</pais>
+<capital>Brasilia</capital>
+<pais>Chile</pais>
+<capital>Santiago de Chile</capital>
+<pais>Guadalajara</pais>
+<capital>Jalisco</capital>
+<pais>Nayarit</pais>
+<capital>Tepic</capital>
+<pais>Morelos</pais>
+<capital>Cuernavaca</capital>
+<pais>Baja California Sur</pais>
+<capital>La paz</capital>
+<pais>Veracruz</pais>
+<capital>Jalapa</capital>
+<pais>Monterrey</pais>
+<capital>Nuevo Leon</capital>
+<pais>Gerrero</pais>
+<capital>Chilpancingo</capital>
+<pais>Colima</pais>
+<capital>Colima</capital>
+<pais>Sinalona</pais>
+<capital>Culiacan</capital>
+<pais>Michoacan</pais>
+<capital>Morelia</capital>
+</capital>

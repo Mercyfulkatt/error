@@ -1,0 +1,16 @@
+
+
+.green{
+    background-color: rgb(235, 16, 89);
+    width: 500px;
+    height: 500px;
+    display:block;
+  
+}
+
+.purple{
+    background-color: purple;
+    width: 500px;
+    height: 500px;
+    display:block;
+}
